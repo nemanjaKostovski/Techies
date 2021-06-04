@@ -21,7 +21,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: var(--font-color);
   background-color: var(--black);
-
+  scroll-behavior: smooth;
 }
 
 .nav {
@@ -29,8 +29,11 @@ body {
   height: 70px;
   display: flex;
   position: fixed;
+  top: 0%;
   flex-direction: row;
+  background-color: var(--black);
   border-bottom: 2px solid var(--orange-color);
+  z-index: 10;
 }
 
 .navigation {
