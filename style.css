@@ -227,3 +227,31 @@ footer {
   text-align: center;
   border-top: 2px solid var(--orange-color);
 }
+
+/*Media Queries for mobile screens*/
+
+@media only screen and (max-width: 576px) {
+  html,
+  body {
+    scroll-behavior: auto;
+  }
+  /*Navigation*/
+  .nav {
+    height: 100px;
+    flex-direction: column;
+  }
+
+  .navigation {
+    width: 100%;
+  }
+
+  .logo {
+    width: 50%;
+    height: 75px;
+    margin-left: 25%;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+}
