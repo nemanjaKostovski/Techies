@@ -254,4 +254,64 @@ footer {
   a {
     font-size: 1rem;
   }
+  /*Home*/
+  
+  .slogan {
+    margin-top: 30%;
+    width: 100%;
+  }
+
+  .slogan img {
+    width: 200px;
+    height: 65px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  .slider {
+    display: none;
+  }
+
+  /*About*/
+
+  #about {
+    margin-top: 152%;
+  }
+
+  #about h2 {
+    margin-top: 10%;
+  }
+  #about p {
+    font-size: 0.9rem;
+  }
+
+  /*Products*/
+
+  #products h2{
+    margin-top: 20%;
+  }
+  
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /*Contact*/
+  
+  #contact {
+    margin-top: 200%;
+  }
+  #contact h2 {
+    margin-top: 10%;
+    padding-top: 10%;
+  }
+  
+  .contact {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  footer{
+    margin-top: 80%;
+  }
 }
